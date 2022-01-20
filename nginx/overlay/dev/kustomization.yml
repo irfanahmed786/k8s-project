@@ -1,0 +1,12 @@
+namePrefix: dev-
+commonLabels:
+  environment: dev
+bases:
+- ../../bases
+patches:
+- image.yml
+configMapGenerator:
+- name: index
+  behavior: replace
+  files:
+  - configs/index.html

@@ -1,0 +1,4 @@
+bases:
+  - overlay/dev
+  - overlay/qas
+  - overlay/prod

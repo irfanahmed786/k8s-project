@@ -1,0 +1,7 @@
+resources:
+- deploy.yml
+- svc.yml
+configMapGenerator:
+- name: index
+  files:
+  - configs/index.html

@@ -1,0 +1,13 @@
+namePrefix: qas-
+commonLabels:
+  environment: qas
+bases:
+- ../../bases
+patches:
+- image.yml
+- replica_count.yml
+configMapGenerator:
+- name: index
+  behavior: replace
+  files:
+  - configs/index.html
