@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
+      - name: spm-wsh
         image: nginx:1.20-alpine
         ports:
         - containerPort: 80
