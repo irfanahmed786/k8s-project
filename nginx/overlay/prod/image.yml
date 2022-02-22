@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
+  name: spm-wsh
 spec:
   template:
     spec:
       containers:
-      - name: nginx
+      - name: spm-wsh
         image: nginx:1.19-alpine
