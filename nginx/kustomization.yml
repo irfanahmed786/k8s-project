@@ -1,3 +1,4 @@
+namespace: spiderman
 bases:
   - overlay/dev
   - overlay/qas
