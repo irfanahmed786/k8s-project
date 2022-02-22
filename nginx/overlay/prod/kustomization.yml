@@ -1,4 +1,5 @@
-namePrefix: prd-
+namePrefix: du-
+nameSuffix: '-p-01'
 commonLabels:
   environment: prd
 bases:
